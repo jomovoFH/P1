@@ -1,0 +1,17 @@
+{
+  "summary": {
+    "title": "OTT",
+    "owner": "ich"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "ott authentifizierungssystem",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "diagramType": "STRIDE",
+        "id": 0
+      }
+    ]
+  }
+}
