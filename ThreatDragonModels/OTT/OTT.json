@@ -933,6 +933,18 @@
               "id": "fa126331-f1b1-4a64-a35d-cc61d2cf45dd",
               "z": 36,
               "hasOpenThreats": false,
+              "threats": [
+                {
+                  "status": "NotApplicable",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "title": "Email gehackt",
+                  "type": "Information disclosure",
+                  "description": "Email Account gehackt",
+                  "mitigation": "2fa aktivieren.",
+                  "threatId": "519175f3-7696-450e-9ebe-5d31a0789988"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
@@ -958,7 +970,12 @@
               "target": {
                 "id": "fa126331-f1b1-4a64-a35d-cc61d2cf45dd"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 905,
+                  "y": 338
+                }
+              ],
               "id": "0e410aac-0354-4927-ac34-0f173bfa46de",
               "labels": [
                 {
