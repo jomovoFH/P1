@@ -79,16 +79,36 @@
               "angle": 0,
               "id": "5f504674-6102-49e6-9d4d-d8de7de960b6",
               "z": 5,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "modelType": "STRIDE",
+                  "type": "Spoofing",
+                  "title": "Handy gestohlen",
+                  "description": "Wenn das Handy des Nutzers gestohlen wird, kann der Dieb die Nummer benutzen",
+                  "threatId": "25c0e18a-3900-455a-9cda-dd4181ab928b"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "modelType": "STRIDE",
+                  "type": "Denial of service",
+                  "title": "Handy verloren",
+                  "description": "Wenn der User sein Handy verliert oder es kaputt geht, hat er keinen Zugriff mehr auf sein Konto",
+                  "threatId": "4bfafb7c-9c25-45b9-9d5e-ab15c7a2fe7f"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "2-Fakotr Authe\nntifizierungsdie\nnst"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -210,16 +230,28 @@
               "angle": 0,
               "id": "193e2515-547c-4e89-8cc2-b19443a4da12",
               "z": 11,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "modelType": "STRIDE",
+                  "type": "Denial of service",
+                  "title": "Flooding",
+                  "description": "Vermehrte Anfragen, die der Server nicht verarbeiten kann",
+                  "mitigation": "Anmeldungen pro IP Adresse limitieren",
+                  "threatId": "a500d758-1c0e-4f27-aca9-8723e7cebe2a"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Allesecure\nMobile Phone\nOTT Service"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -863,16 +895,27 @@
               "angle": 0,
               "id": "ef44434d-b87f-41a5-9f1f-534b569d7e32",
               "z": 33,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Low",
+                  "modelType": "STRIDE",
+                  "type": "Elevation of privilege",
+                  "title": "Externe Email compromised",
+                  "description": "Externer wird gehackt und hat zugriff auf alle Mails der Firma.\nDadurch haben sie zugriff auf Admin.",
+                  "threatId": "1cebb073-4ee9-4e5f-9c6d-28ee2a0e0c3e"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Email Datenbank"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -974,6 +1017,10 @@
                 {
                   "x": 905,
                   "y": 338
+                },
+                {
+                  "x": 935,
+                  "y": 346
                 }
               ],
               "id": "0e410aac-0354-4927-ac34-0f173bfa46de",
@@ -1025,16 +1072,28 @@
               "angle": 0,
               "id": "6f7ad64a-03a6-4fa2-866a-63e870d35674",
               "z": 38,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "modelType": "STRIDE",
+                  "type": "Repudiation",
+                  "title": "Fehlfunktion SIEMS",
+                  "description": "Falls SIEM nicht richtig funktioniert, kann man opfer einer Repudiation Attacke werden",
+                  "mitigation": "Redundante SIEM Server",
+                  "threatId": "298894db-81be-4027-912d-7134473d33af"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "SIEM"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -1045,13 +1104,13 @@
                 "height": 100
               },
               "position": {
-                "x": 229,
-                "y": 135
+                "x": 226,
+                "y": 125
               },
               "angle": 0,
               "id": "9e8de4bb-ad46-4dfd-802d-b17614244bc1",
               "z": 41,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "threats": [
                 {
                   "status": "Mitigated",
@@ -1062,17 +1121,27 @@
                   "description": "Eigene Verschlüsselungssoftware ist risikoreich",
                   "mitigation": "Ersetzt durch Industriestandard",
                   "threatId": "59ce9f67-99fc-4bc0-a618-ad692b67bb29"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Low",
+                  "modelType": "STRIDE",
+                  "type": "Tampering",
+                  "description": "SQL Incjection risk",
+                  "mitigation": "sanitizing user inputs",
+                  "title": "SQL Injection",
+                  "threatId": "5d00877b-bc31-4007-970c-cce549d7721f"
                 }
               ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Login System\nWebapp +\nMobil"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
