@@ -711,12 +711,31 @@
                   "y": 287
                 },
                 {
+                  "x": 199,
+                  "y": 261
+                },
+                {
                   "x": 216,
                   "y": 4
                 }
               ],
               "id": "27d2b11b-7f4d-4e52-871e-ba1fe8d58da3",
               "z": 27,
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.8697881753550897,
+                    "offset": 40.82626156251112
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Allsecure",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
               "attrs": {}
             },
             {
@@ -907,8 +926,8 @@
                 "height": 80
               },
               "position": {
-                "x": 906,
-                "y": 307
+                "x": 961,
+                "y": 310
               },
               "angle": 0,
               "id": "fa126331-f1b1-4a64-a35d-cc61d2cf45dd",
@@ -1016,6 +1035,18 @@
               "id": "9e8de4bb-ad46-4dfd-802d-b17614244bc1",
               "z": 41,
               "hasOpenThreats": false,
+              "threats": [
+                {
+                  "status": "Mitigated",
+                  "severity": "High",
+                  "modelType": "STRIDE",
+                  "type": "Information disclosure",
+                  "title": "Kryptografie eigne Software",
+                  "description": "Eigene Verschlüsselungssoftware ist risikoreich",
+                  "mitigation": "Ersetzt durch Industriestandard",
+                  "threatId": "59ce9f67-99fc-4bc0-a618-ad692b67bb29"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
